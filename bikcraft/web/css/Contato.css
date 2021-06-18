@@ -1,0 +1,91 @@
+/*introdução Interna*/
+.interna_Contato {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+/*parte do formulario Orçamento*/
+.contato {
+  width: 100%;
+}
+.contato_formulario {
+  padding: 40px 0;
+}
+/*deixar o nome em cima da caixa de texto*/
+.contato_formulario label {
+  display: block;
+  padding: 5px 0;
+}
+.contato_formulario input,
+textarea {
+  border: solid 4px #E98723;
+  padding: 10px;
+  width: 80%;
+  color: #000;
+  /*para tira borda ao passar o mouser*/
+  outline: none;
+}
+.contato_formulario textarea {
+  height: 100px;
+  background: #fff;
+}
+/*parte dos dados da lista*/
+.contato_Dados h3,
+.footer_Redes h3 {
+  color: #E98723;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.contato_Dados span {
+  display: block;
+}
+.span_Email {
+  padding-bottom: 30px;
+  margin-top: 8px;
+}
+.endereco span {
+  padding: 4px 0;
+}
+.contato_Dados p {
+  margin-top: 20px;
+  padding: 4px 0;
+}
+.contato_Dados p,
+li,
+span {
+  color: #000;
+}
+.contato_Dados h3 {
+  margin-top: 40px;
+}
+/*Endereço*/
+.endereco {
+  padding-bottom: 30px;
+}
+/*Redes Sociais */
+.contato_Dados ul li {
+  display: inline-block;
+  border: solid 3px #E98723;
+  margin-right: 4px;
+  padding: 13px;
+}
+.contato_Dados ul li:hover {
+  border-color: #000;
+}
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #fff;
+  margin: 10px 0;
+}
+/*contato Mapa*/
+.contato_Mapa {
+  margin-bottom: 20px;
+}
+.contato_Mapa img {
+  margin: 0 auto;
+}

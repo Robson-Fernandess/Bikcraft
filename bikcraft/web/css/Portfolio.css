@@ -1,0 +1,26 @@
+/*introdução portifolio*/
+.interna_Portfolio{
+background: url("../img/bg-portfolio.jpg") no-repeat center;
+background-size: cover;
+}
+.dedicatoria {
+    width: 80%;
+    height: 180px;
+    text-align: center;
+    font-weight: bold;
+    margin:  0 auto;
+}
+.dedicatoria p{
+    font-size: 18px;
+    padding: 20px;
+}
+
+/*portifolio imagen*/
+.portfolio_Geral {
+    width: 100%;
+    background: #000;
+}
+.portifolio img:last-child{
+margin-top: 20px;
+}
+

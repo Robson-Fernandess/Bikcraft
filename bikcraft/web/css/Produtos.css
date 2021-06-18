@@ -1,0 +1,140 @@
+/*introdução Interna*/
+.interna_Produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.produto_Geral {
+  padding: 30px 0;
+}
+.produto_Geral h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  top: -200px;
+  margin-top: -56px;
+}
+.produto_Geral h2:after,
+.produto_Geral h2:before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: #fff;
+  margin: 5px auto;
+}
+.produto_Img {
+  background: #000;
+  padding: 70px 0;
+}
+.produto_Img img {
+  margin: 0 auto;
+}
+.produto_Info {
+  background: #000;
+}
+.produto_Info p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 40px;
+  height: 182px;
+}
+/*da espaço na lista CONFORTO VELOCIDADE DESIGNE VERSARTILIDADE*/
+.produto_Info ul li:nth-child(1),
+.produto_Info ul li:nth-child(2) {
+  margin-bottom: 1px;
+}
+.produto_Info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+.produto_Info ul li {
+  float: left;
+  background: #E98723;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  width: 229px;
+  height: 48px;
+  padding: 17px;
+}
+/* subtitulo */
+
+/*parte do formulario Orçamento*/
+.orcamento {
+  background: #000;
+  width: 100%;
+  padding: 40px 0;
+}
+.orcamento h2::after{
+  color: #E98723;
+  content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: white;
+    margin: 0 auto;
+    margin: 10px auto;
+}
+.formulario {
+  padding-right: 60px;
+}
+.formulario label {
+  /*deixar o nome em cima da caixa de texto*/
+  display: block;
+  color: #fff;
+  padding: 5px 0;
+}
+.formulario input,
+textarea {
+  border: solid 4px #E98723;
+  padding: 10px;
+  width: 80%;
+  background: #000;
+  color: #fff;
+  /*para tira borda ao passar o mouser*/
+  outline: none;
+}
+.formulario textarea {
+  height: 100px;
+}
+/*parte dos dados da lista*/
+.orcamento_Dados h3 {
+  color: #E98723;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.orcamento_Dados span {
+  display: block;
+}
+.span_Email {
+  padding-bottom: 50px;
+}
+.orcamento_Dados p {
+  margin-top: 20px;
+  padding: 4px;
+}
+.orcamento_Dados p,
+li,
+span {
+  color: #fff;
+}
+/*Parte da lista*/
+.orcamento_Dados li {
+  padding: 8px 12px;
+  width: 250px;
+}
+/*[odd] pega o primeiro elemento da lista [even] pega o segundo elemento da lista */
+.orcamento_Dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+/*
+.orcamento_Dados ul li:nth-child(1){
+    background: #fec63e;
+}
+*/
